@@ -13,7 +13,6 @@ describe("Question 1", () => {
     const input = "Nitzan";
     const expOutput = "naztiN";
     const output = myReverse(input);
-
     expect(output).toBe(expOutput);
   });
 });
