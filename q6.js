@@ -1,0 +1,15 @@
+function sumDividers(n) {
+    let num= 0;
+  for (i = 1; i < n; i++) {
+    if(n % i === 0) {
+      num += i
+    }
+    } 
+    if(num === n) {
+      return n + ' is perfect'
+    } else {
+      return n + ' is not perfect'
+    }
+  
+  } 
+  
